@@ -1,0 +1,27 @@
+{
+  "name": "bsport",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhellar/bsport.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhellar/bsport/issues"
+  },
+  "homepage": "https://github.com/mhellar/bsport#readme",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "install": "^0.13.0",
+    "jquery": "^3.5.1",
+    "npm": "^6.14.10",
+    "popper.js": "^1.16.1"
+  }
+}
