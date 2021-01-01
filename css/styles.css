@@ -1,3 +1,22 @@
+#my-container {
+	z-index: -1;  
+	mix-blend-mode: multiply;
+}
+
+#my-container, #my-background {
+	position: fixed;
+    top: 0;
+    left: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+#my-background {
+  
+  z-index: -10;
+
+}
+
 body {
     font-family: "Open Sans", sans-serif;
 }
@@ -29,7 +48,9 @@ header h2 {
     border-bottom: 1px ridge;
     min-height: 200px;
 }
-
+.bq {
+    color: black;
+}
 .navbar {
 }
 .site-footer{
@@ -52,3 +73,131 @@ a, a:hover {
 
 .carousel {
 }
+
+.fade-in {
+    animation: fadeIn ease 3s;
+    -webkit-animation: fadeIn ease 3s;
+    -moz-animation: fadeIn ease 3s;
+    -o-animation: fadeIn ease 3s;
+    -ms-animation: fadeIn ease 3s;
+    }
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-moz-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-webkit-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-o-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    
+    @-ms-keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
+    .fade-in1 {
+        animation: fadeIn ease 3s;
+        -webkit-animation: fadeIn ease 3s;
+        -moz-animation: fadeIn ease 3s;
+        -o-animation: fadeIn ease 3s;
+        -ms-animation: fadeIn ease 3s;
+        }
+        @keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-moz-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-webkit-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-o-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+        
+        @-ms-keyframes fadeIn {
+        0% {opacity:0;}
+        100% {opacity:1;}
+        }
+
+        .fade-in2 {
+            animation: fadeIn ease 7s;
+            -webkit-animation: fadeIn ease 7s;
+            -moz-animation: fadeIn ease 7s;
+            -o-animation: fadeIn ease 7s;
+            -ms-animation: fadeIn ease 7s;
+            }
+            @keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
+            
+            @-moz-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
+            
+            @-webkit-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
+            
+            @-o-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
+            
+            @-ms-keyframes fadeIn {
+            0% {opacity:0;}
+            100% {opacity:1;}
+            }
+
+            .fade-in3 {
+                animation: fadeIn ease 20s;
+                -webkit-animation: fadeIn ease 20s;
+                -moz-animation: fadeIn ease 20s;
+                -o-animation: fadeIn ease 20s;
+                -ms-animation: fadeIn ease 20s;
+                }
+                @keyframes fadeIn {
+                0% {opacity:0;}
+                100% {opacity:1;}
+                }
+                
+                @-moz-keyframes fadeIn {
+                0% {opacity:0;}
+                100% {opacity:1;}
+                }
+                
+                @-webkit-keyframes fadeIn {
+                0% {opacity:0;}
+                100% {opacity:1;}
+                }
+                
+                @-o-keyframes fadeIn {
+                0% {opacity:0;}
+                100% {opacity:1;}
+                }
+                
+                @-ms-keyframes fadeIn {
+                0% {opacity:0;}
+                100% {opacity:1;}
+                }
+

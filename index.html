@@ -15,6 +15,9 @@
     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
 
+    <script src="node_modules/p5/lib/p5.min.js"></script>
+    <script src="js/sketch.js"></script>
+
     <title>Hellar Studios LLC</title>
 </head>
 
@@ -24,7 +27,7 @@
             <div class="container">
                 <div class="row">
                     <div class="mx-auto text-center col-md-6">
-                        <h1 class="display-1 text-white">HELLAR STUDIOS LLC</h1>
+                        <h1 class="display-1 text-white fade-in">HELLAR STUDIOS LLC</h1>
                         <p class="lead text-primary">Specializing in creative yet practical digital media solutions for
                             artists and the instituions that support them</p>
                     </div>
@@ -57,17 +60,52 @@
             </ul>
         </div>
     </nav>
+    <section id="background">
+        <div id="my-container" class="fade-in3">
+            <!-- canvas container back -->
+        </div>
+        <div id="my-background" class="fade-in3">
+            <!-- background for shadow -->
+        </div>
+    </section>
+    <div class="container">
+        <div class="row row-content">
+            <div class="col-md-8 mx-auto">
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/haacke.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/holzer1.PNG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/ie.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <div class="" style="">
         <div class="container">
             <div class="row">
                 <div class="col-md-4 align-self-center">
-                    <img class="img-fluid d-block" src="assets/images/project5-3.jpg" style=""> </div>
+                    <img class="img-fluid d-block" src="img/work.jpg" style=""> </div>
                 <div class="col-lg-8">
-                    <h4 class="mb-3 text-white">Services</h4>
-                    <div class="blockquote text-muted">
-                        <p class="mb-0">Blockquoute -&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    <h4 class="mb-3 text-white">Work</h4>
+                    <div class="blockquote text-muted bq">
+                        <p class="mb-0">Blockquoute -&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis
                             nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                         <div class="blockquote-footer">Someone famous in My memories</div>
                     </div>
@@ -80,12 +118,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 align-self-center order-last">
-                    <img class="img-fluid d-block" src="assets/images/project5-3.jpg" style=""> </div>
+                    <img class="img-fluid d-block" src="img/work1.jpg" style=""> </div>
                 <div class="col-lg-8">
                     <h4 class="mb-3 text-white">Services</h4>
-                    <div class="blockquote text-muted">
-                        <p class="mb-0">Blockquoute -&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    <div class="blockquote text-muted bq">
+                        <p class="mb-0">Blockquoute -&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis
                             nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                         <div class="blockquote-footer">Someone famous in My memories</div>
                     </div>
@@ -98,12 +138,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 align-self-center">
-                    <img class="img-fluid d-block" src="assets/images/project5-3.jpg" style=""> </div>
+                    <img class="img-fluid d-block" src="img/pub1.jpg" style=""> </div>
                 <div class="col-lg-8">
-                    <h4 class="mb-3 text-white">Services</h4>
-                    <div class="blockquote text-muted">
-                        <p class="mb-0">Blockquoute -&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    <h4 class="mb-3 text-white">Publication</h4>
+                    <div class="blockquote text-muted bq">
+                        <p class="mb-0">Blockquoute -&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis
                             nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                         <div class="blockquote-footer">Someone famous in My memories</div>
                     </div>
@@ -116,12 +158,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 align-self-center order-last">
-                    <img class="img-fluid d-block" src="assets/images/project5-3.jpg" style=""> </div>
+                    <img class="img-fluid d-block" src="img/contact1.jpg" style=""> </div>
                 <div class="col-lg-8">
-                    <h4 class="mb-3 text-white">Services</h4>
-                    <div class="blockquote text-muted">
-                        <p class="mb-0">Blockquoute -&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                    <h4 class="mb-3 text-white">Contact</h4>
+                    <div class="blockquote text-muted bq">
+                        <p class="mb-0">Blockquoute -&nbsp;Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                            sed
+                            do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis
                             nostrud exercitation ullamco laboris nisi ut aliquip.</p>
                         <div class="blockquote-footer">Someone famous in My memories</div>
                     </div>
@@ -129,6 +173,7 @@
             </div>
         </div>
     </div>
+
 
 
     <footer class="site-footer">
