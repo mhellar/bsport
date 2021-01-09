@@ -22,7 +22,7 @@ let v = 0;
 let w = 0;
 
 function draw() {
-  fill(230, 30);
+  fill(250, 100);
   rect(0, 0, width, height);
 
   noFill();
